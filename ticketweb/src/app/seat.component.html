@@ -1,0 +1,12 @@
+<table>
+    <tr *ngFor="let seatList of SeatDataList">
+        <td *ngFor="let seat of seatList" (click)="triggerEvent(seat)">
+            <div class="image">
+                <img [src]="seat.SeatCSS">
+                <div class="text">
+                    {{seat.ID}}
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

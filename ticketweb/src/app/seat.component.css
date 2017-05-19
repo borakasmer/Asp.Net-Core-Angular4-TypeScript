@@ -1,0 +1,11 @@
+.image {
+    position:relative;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 20px;
+    width: 100%;    
+}

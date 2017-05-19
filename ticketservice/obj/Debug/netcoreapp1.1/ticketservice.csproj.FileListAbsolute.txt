@@ -1,0 +1,8 @@
+/Users/borakasmer/istanbulcoders/ticketservice/bin/Debug/netcoreapp1.1/ticketservice.deps.json
+/Users/borakasmer/istanbulcoders/ticketservice/bin/Debug/netcoreapp1.1/ticketservice.runtimeconfig.json
+/Users/borakasmer/istanbulcoders/ticketservice/bin/Debug/netcoreapp1.1/ticketservice.runtimeconfig.dev.json
+/Users/borakasmer/istanbulcoders/ticketservice/bin/Debug/netcoreapp1.1/ticketservice.dll
+/Users/borakasmer/istanbulcoders/ticketservice/bin/Debug/netcoreapp1.1/ticketservice.pdb
+/Users/borakasmer/istanbulcoders/ticketservice/obj/Debug/netcoreapp1.1/ticketservice.AssemblyInfo.cs
+/Users/borakasmer/istanbulcoders/ticketservice/obj/Debug/netcoreapp1.1/ticketservice.dll
+/Users/borakasmer/istanbulcoders/ticketservice/obj/Debug/netcoreapp1.1/ticketservice.pdb

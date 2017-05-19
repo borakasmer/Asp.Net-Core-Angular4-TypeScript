@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="jumbotron">
+    <h2>
+      {{title}}
+    </h2>
+  </div>
+  {{RowCount}}x{{ColumnCount}}
+  <table>
+    <tr>
+      <td>
+        <b>Block Satır Sayısı:</b>
+      </td>
+      <td>
+        <input type="text" [(ngModel)]="RowCount">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Block Sütün Sayısı:</b>
+      </td>
+      <td>
+        <input type="text" [(ngModel)]="ColumnCount">
+        <input type="button" (click)="DrawSeat()" value="Gönder" [disabled]="RowCount=='' || RowCount==null || ColumnCount=='' || ColumnCount==null">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Koltuk İşlmeleri</b>
+      </td>
+      <td>
+        <select [(ngModel)]="selectedSeatInfo">
+          <option *ngFor="let info of SeatInfoList" [ngValue]=info>
+            {{info.name}}
+          </option>
+        </select>
+        <input type="button" value="Kaydet" (click)="Save()">
+      </td>
+    </tr>
+  </table>
+  <div>
+   <seat [SeatDataList]="SeatList" (ChangeSeat)="ChangeSeatCSS($event)"></seat>
+  </div>
+</div>
